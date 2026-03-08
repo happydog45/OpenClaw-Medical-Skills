@@ -47,71 +47,108 @@
 
 ### 前置要求
 
-- 已安装并运行 [OpenClaw](https://github.com/MedClaw-Org) 或 [NanoClaw](https://github.com/MedClaw-Org)
-- Node.js 18+（NanoClaw 需要）
-- Git
+- 已安装并运行 [OpenClaw](https://github.com/openclaw/openclaw)，或使用替代方案 [NanoClaw](https://github.com/MedClaw-Org)
+- Git（用于克隆本仓库）
 
-### 方法一 — 克隆并复制（推荐）
+---
+
+### OpenClaw 用户
+
+OpenClaw 从以下两个位置加载技能：
+
+| 优先级 | 路径 | 作用域 |
+|---|---|---|
+| 高 | `<workspace>/skills/` | 每个工作区独立（推荐） |
+| 低 | `~/.openclaw/skills/` | 全局，所有 Agent 共享 |
+
+#### 方法一 — 克隆并复制（推荐）
 
 ```bash
-# 克隆此仓库
+# 克隆本仓库
 git clone https://github.com/MedClaw-Org/OpenClaw-Medical-Skills.git
 
-# 将所有技能复制到 NanoClaw 容器技能目录
-cp -r OpenClaw-Medical-Skills/skills/* /path/to/your/nanoclaw/container/skills/
+# 安装到当前工作区的 skills 目录
+cp -r OpenClaw-Medical-Skills/skills/* <your-workspace>/skills/
+
+# 或安装到全局（所有 Agent 均可使用）
+cp -r OpenClaw-Medical-Skills/skills/* ~/.openclaw/skills/
 ```
 
-使用默认 NanoClaw 安装路径：
+下次会话时技能自动生效，无需重启。
+
+#### 方法二 — ClawHub CLI
+
+如果您使用 [ClawHub 注册表](https://clawhub.com)，可以搜索并安装单个技能。批量安装整个集合建议使用方法一。
 
 ```bash
-cp -r OpenClaw-Medical-Skills/skills/* ~/Desktop/MedClaw/container/skills/
+npm install -g clawhub
+clawhub install <skill-slug>    # 安装单个技能
+clawhub update --all            # 更新所有已安装技能
 ```
 
-然后重建容器以应用新技能：
+#### 方法三 — 配置额外技能目录
 
-```bash
-cd ~/Desktop/MedClaw
-./container/build.sh
+将本仓库的克隆路径永久配置到 `~/.openclaw/openclaw.json` 中：
+
+```json
+{
+  "skills": {
+    "load": {
+      "extraDirs": ["/path/to/OpenClaw-Medical-Skills/skills"]
+    }
+  }
+}
 ```
 
-### 方法二 — 仅安装部分技能
+这样无需复制文件，即可挂载整个技能集合。
 
-按需选择与您工作相关的技能：
+#### 方法四 — 仅安装所需技能
+
+按需选择与您领域相关的技能：
 
 ```bash
-# 示例：仅安装临床与药物发现相关技能
+# 示例：临床 + 药物发现技能组合
 SKILLS=(
   "clinical-reports"
   "tooluniverse-drug-research"
   "tooluniverse-pharmacovigilance"
   "clinicaltrials-database"
   "biomedical-search"
+  "tooluniverse-drug-drug-interaction"
 )
 
 for skill in "${SKILLS[@]}"; do
-  cp -r OpenClaw-Medical-Skills/skills/$skill /path/to/nanoclaw/container/skills/
+  cp -r OpenClaw-Medical-Skills/skills/$skill ~/.openclaw/skills/
 done
 ```
 
-### 方法三 — 通过 Agent 内置 `find-skills` 安装
+---
 
-如果您的 NanoClaw 已安装 `find-skills` 技能，直接询问智能体：
+### NanoClaw 用户
 
+NanoClaw 在容器启动时从 `container/skills/` 加载技能。
+
+```bash
+# 克隆并复制到 NanoClaw 容器技能目录
+git clone https://github.com/MedClaw-Org/OpenClaw-Medical-Skills.git
+cp -r OpenClaw-Medical-Skills/skills/* /path/to/nanoclaw/container/skills/
+
+# 重建容器使技能生效
+cd /path/to/nanoclaw
+./container/build.sh
 ```
-帮我找一个临床试验分析的技能并安装
-```
 
-智能体会自动从本集合中发现并安装相关技能。
+---
 
 ### 验证安装
 
-安装后，询问您的智能体：
+安装完成后，向您的 Agent 提问：
 
 ```
 你现在有哪些医疗和临床方面的技能？
 ```
 
-智能体应列出已安装的技能及其功能说明。
+Agent 应当列出已安装的技能及其功能说明。
 
 ---
 

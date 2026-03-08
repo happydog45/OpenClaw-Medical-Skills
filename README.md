@@ -47,61 +47,98 @@ This collection aggregates skills from **12+ open-source skill repositories** sp
 
 ### Requirements
 
-- [OpenClaw](https://github.com/MedClaw-Org) or [NanoClaw](https://github.com/MedClaw-Org) installed and running
-- Node.js 18+ (for NanoClaw)
-- Git
+- [OpenClaw](https://github.com/openclaw/openclaw) installed and running, **or** [NanoClaw](https://github.com/MedClaw-Org) as an alternative
+- Git (for cloning this repo)
 
-### Method 1 — Clone and Copy (Recommended)
+---
+
+### For OpenClaw Users
+
+OpenClaw loads skills from two locations:
+
+| Priority | Path | Scope |
+|---|---|---|
+| High | `<workspace>/skills/` | Per-workspace (recommended) |
+| Low | `~/.openclaw/skills/` | Global, shared across all agents |
+
+#### Method 1 — Clone and Copy (Recommended)
 
 ```bash
 # Clone this repository
 git clone https://github.com/MedClaw-Org/OpenClaw-Medical-Skills.git
 
-# Copy all skills into your NanoClaw container skills directory
-cp -r OpenClaw-Medical-Skills/skills/* /path/to/your/nanoclaw/container/skills/
+# Install to your workspace skills directory
+cp -r OpenClaw-Medical-Skills/skills/* <your-workspace>/skills/
+
+# Or install globally (available to all agents)
+cp -r OpenClaw-Medical-Skills/skills/* ~/.openclaw/skills/
 ```
 
-For the default NanoClaw installation path:
+Skills are picked up automatically on the next session. No restart needed.
+
+#### Method 2 — ClawHub CLI
+
+If you use the [ClawHub registry](https://clawhub.com), you can search and install individual skills from there. For bulk install from this collection, Method 1 is faster.
 
 ```bash
-cp -r OpenClaw-Medical-Skills/skills/* ~/Desktop/MedClaw/container/skills/
+npm install -g clawhub
+clawhub install <skill-slug>    # install a single skill
+clawhub update --all            # update all installed skills
 ```
 
-Then rebuild the container to apply the new skills:
+#### Method 3 — Configure Extra Directories
 
-```bash
-cd ~/Desktop/MedClaw
-./container/build.sh
+To point OpenClaw at a cloned copy of this repo permanently, add it to `~/.openclaw/openclaw.json`:
+
+```json
+{
+  "skills": {
+    "load": {
+      "extraDirs": ["/path/to/OpenClaw-Medical-Skills/skills"]
+    }
+  }
+}
 ```
 
-### Method 2 — Install Specific Skills Only
+This mounts the entire collection without copying files.
 
-Pick and choose skills relevant to your work:
+#### Method 4 — Install Selected Skills Only
+
+Pick skills relevant to your domain:
 
 ```bash
-# Example: install only clinical and drug discovery skills
+# Example: clinical + drug discovery stack
 SKILLS=(
   "clinical-reports"
   "tooluniverse-drug-research"
   "tooluniverse-pharmacovigilance"
   "clinicaltrials-database"
   "biomedical-search"
+  "tooluniverse-drug-drug-interaction"
 )
 
 for skill in "${SKILLS[@]}"; do
-  cp -r OpenClaw-Medical-Skills/skills/$skill /path/to/nanoclaw/container/skills/
+  cp -r OpenClaw-Medical-Skills/skills/$skill ~/.openclaw/skills/
 done
 ```
 
-### Method 3 — Use `find-skills` In-Agent
+---
 
-If your NanoClaw already has the `find-skills` skill installed, ask your agent:
+### For NanoClaw Users
 
+NanoClaw loads skills into agent containers at startup from `container/skills/`.
+
+```bash
+# Clone and copy into NanoClaw container skills directory
+git clone https://github.com/MedClaw-Org/OpenClaw-Medical-Skills.git
+cp -r OpenClaw-Medical-Skills/skills/* /path/to/nanoclaw/container/skills/
+
+# Rebuild the container to apply
+cd /path/to/nanoclaw
+./container/build.sh
 ```
-Find and install skills for clinical trial analysis
-```
 
-The agent will discover and install relevant skills from this collection automatically.
+---
 
 ### Verification
 
