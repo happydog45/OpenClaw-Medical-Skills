@@ -1,0 +1,3483 @@
+{
+  "name": "OpenClaw Medical Skills",
+  "description": "A curated collection of open-source medical and bioinformatics skills for AI agents",
+  "version": "0.0.1",
+  "plugins": [
+    {
+      "name": "aav-vector-design-agent",
+      "source": "."
+    },
+    {
+      "name": "adaptyv",
+      "source": "."
+    },
+    {
+      "name": "adhd-daily-planner",
+      "source": "."
+    },
+    {
+      "name": "aeon",
+      "source": "."
+    },
+    {
+      "name": "agent-browser",
+      "source": "."
+    },
+    {
+      "name": "agentd-drug-discovery",
+      "source": "."
+    },
+    {
+      "name": "ai-analyzer",
+      "source": "."
+    },
+    {
+      "name": "alphafold",
+      "source": "."
+    },
+    {
+      "name": "alphafold-database",
+      "source": "."
+    },
+    {
+      "name": "anndata",
+      "source": "."
+    },
+    {
+      "name": "antibody-design-agent",
+      "source": "."
+    },
+    {
+      "name": "arboreto",
+      "source": "."
+    },
+    {
+      "name": "armored-cart-design-agent",
+      "source": "."
+    },
+    {
+      "name": "arxiv-search",
+      "source": "."
+    },
+    {
+      "name": "autonomous-oncology-agent",
+      "source": "."
+    },
+    {
+      "name": "bayesian-optimizer",
+      "source": "."
+    },
+    {
+      "name": "benchling-integration",
+      "source": "."
+    },
+    {
+      "name": "bgpt-paper-search",
+      "source": "."
+    },
+    {
+      "name": "bindcraft",
+      "source": "."
+    },
+    {
+      "name": "binder-design",
+      "source": "."
+    },
+    {
+      "name": "binding-characterization",
+      "source": "."
+    },
+    {
+      "name": "bindingdb-database",
+      "source": "."
+    },
+    {
+      "name": "bio-admet-prediction",
+      "source": "."
+    },
+    {
+      "name": "bio-alignment-files-bam-statistics",
+      "source": "."
+    },
+    {
+      "name": "bio-alignment-filtering",
+      "source": "."
+    },
+    {
+      "name": "bio-alignment-indexing",
+      "source": "."
+    },
+    {
+      "name": "bio-alignment-io",
+      "source": "."
+    },
+    {
+      "name": "bio-alignment-msa-parsing",
+      "source": "."
+    },
+    {
+      "name": "bio-alignment-msa-statistics",
+      "source": "."
+    },
+    {
+      "name": "bio-alignment-pairwise",
+      "source": "."
+    },
+    {
+      "name": "bio-alignment-sorting",
+      "source": "."
+    },
+    {
+      "name": "bio-alignment-validation",
+      "source": "."
+    },
+    {
+      "name": "bio-atac-seq-atac-peak-calling",
+      "source": "."
+    },
+    {
+      "name": "bio-atac-seq-atac-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-atac-seq-differential-accessibility",
+      "source": "."
+    },
+    {
+      "name": "bio-atac-seq-footprinting",
+      "source": "."
+    },
+    {
+      "name": "bio-atac-seq-motif-deviation",
+      "source": "."
+    },
+    {
+      "name": "bio-atac-seq-nucleosome-positioning",
+      "source": "."
+    },
+    {
+      "name": "bio-basecalling",
+      "source": "."
+    },
+    {
+      "name": "bio-batch-downloads",
+      "source": "."
+    },
+    {
+      "name": "bio-batch-processing",
+      "source": "."
+    },
+    {
+      "name": "bio-bedgraph-handling",
+      "source": "."
+    },
+    {
+      "name": "bio-blast-searches",
+      "source": "."
+    },
+    {
+      "name": "bio-causal-genomics-colocalization-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-causal-genomics-fine-mapping",
+      "source": "."
+    },
+    {
+      "name": "bio-causal-genomics-mediation-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-causal-genomics-mendelian-randomization",
+      "source": "."
+    },
+    {
+      "name": "bio-causal-genomics-pleiotropy-detection",
+      "source": "."
+    },
+    {
+      "name": "bio-cfdna-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "bio-chipseq-differential-binding",
+      "source": "."
+    },
+    {
+      "name": "bio-chipseq-motif-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-chipseq-peak-annotation",
+      "source": "."
+    },
+    {
+      "name": "bio-chipseq-peak-calling",
+      "source": "."
+    },
+    {
+      "name": "bio-chipseq-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-chipseq-super-enhancers",
+      "source": "."
+    },
+    {
+      "name": "bio-chipseq-visualization",
+      "source": "."
+    },
+    {
+      "name": "bio-clinical-databases-clinvar-lookup",
+      "source": "."
+    },
+    {
+      "name": "bio-clinical-databases-dbsnp-queries",
+      "source": "."
+    },
+    {
+      "name": "bio-clinical-databases-gnomad-frequencies",
+      "source": "."
+    },
+    {
+      "name": "bio-clinical-databases-hla-typing",
+      "source": "."
+    },
+    {
+      "name": "bio-clinical-databases-myvariant-queries",
+      "source": "."
+    },
+    {
+      "name": "bio-clinical-databases-pharmacogenomics",
+      "source": "."
+    },
+    {
+      "name": "bio-clinical-databases-polygenic-risk",
+      "source": "."
+    },
+    {
+      "name": "bio-clinical-databases-somatic-signatures",
+      "source": "."
+    },
+    {
+      "name": "bio-clinical-databases-tumor-mutational-burden",
+      "source": "."
+    },
+    {
+      "name": "bio-clinical-databases-variant-prioritization",
+      "source": "."
+    },
+    {
+      "name": "bio-clip-seq-binding-site-annotation",
+      "source": "."
+    },
+    {
+      "name": "bio-clip-seq-clip-alignment",
+      "source": "."
+    },
+    {
+      "name": "bio-clip-seq-clip-motif-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-clip-seq-clip-peak-calling",
+      "source": "."
+    },
+    {
+      "name": "bio-clip-seq-clip-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "bio-codon-usage",
+      "source": "."
+    },
+    {
+      "name": "bio-comparative-genomics-ancestral-reconstruction",
+      "source": "."
+    },
+    {
+      "name": "bio-comparative-genomics-hgt-detection",
+      "source": "."
+    },
+    {
+      "name": "bio-comparative-genomics-ortholog-inference",
+      "source": "."
+    },
+    {
+      "name": "bio-comparative-genomics-positive-selection",
+      "source": "."
+    },
+    {
+      "name": "bio-comparative-genomics-synteny-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-compressed-files",
+      "source": "."
+    },
+    {
+      "name": "bio-consensus-sequences",
+      "source": "."
+    },
+    {
+      "name": "bio-copy-number-cnv-annotation",
+      "source": "."
+    },
+    {
+      "name": "bio-copy-number-cnv-visualization",
+      "source": "."
+    },
+    {
+      "name": "bio-copy-number-cnvkit-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-copy-number-gatk-cnv",
+      "source": "."
+    },
+    {
+      "name": "bio-crispr-screens-base-editing-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-crispr-screens-batch-correction",
+      "source": "."
+    },
+    {
+      "name": "bio-crispr-screens-crispresso-editing",
+      "source": "."
+    },
+    {
+      "name": "bio-crispr-screens-hit-calling",
+      "source": "."
+    },
+    {
+      "name": "bio-crispr-screens-jacks-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-crispr-screens-library-design",
+      "source": "."
+    },
+    {
+      "name": "bio-crispr-screens-mageck-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-crispr-screens-screen-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-ctdna-mutation-detection",
+      "source": "."
+    },
+    {
+      "name": "bio-data-visualization-circos-plots",
+      "source": "."
+    },
+    {
+      "name": "bio-data-visualization-color-palettes",
+      "source": "."
+    },
+    {
+      "name": "bio-data-visualization-genome-browser-tracks",
+      "source": "."
+    },
+    {
+      "name": "bio-data-visualization-genome-tracks",
+      "source": "."
+    },
+    {
+      "name": "bio-data-visualization-ggplot2-fundamentals",
+      "source": "."
+    },
+    {
+      "name": "bio-data-visualization-heatmaps-clustering",
+      "source": "."
+    },
+    {
+      "name": "bio-data-visualization-interactive-visualization",
+      "source": "."
+    },
+    {
+      "name": "bio-data-visualization-multipanel-figures",
+      "source": "."
+    },
+    {
+      "name": "bio-data-visualization-specialized-omics-plots",
+      "source": "."
+    },
+    {
+      "name": "bio-data-visualization-upset-plots",
+      "source": "."
+    },
+    {
+      "name": "bio-data-visualization-volcano-customization",
+      "source": "."
+    },
+    {
+      "name": "bio-de-deseq2-basics",
+      "source": "."
+    },
+    {
+      "name": "bio-de-edger-basics",
+      "source": "."
+    },
+    {
+      "name": "bio-de-results",
+      "source": "."
+    },
+    {
+      "name": "bio-de-visualization",
+      "source": "."
+    },
+    {
+      "name": "bio-differential-expression-batch-correction",
+      "source": "."
+    },
+    {
+      "name": "bio-differential-expression-timeseries-de",
+      "source": "."
+    },
+    {
+      "name": "bio-differential-splicing",
+      "source": "."
+    },
+    {
+      "name": "bio-duplicate-handling",
+      "source": "."
+    },
+    {
+      "name": "bio-entrez-fetch",
+      "source": "."
+    },
+    {
+      "name": "bio-entrez-link",
+      "source": "."
+    },
+    {
+      "name": "bio-entrez-search",
+      "source": "."
+    },
+    {
+      "name": "bio-epidemiological-genomics-amr-surveillance",
+      "source": "."
+    },
+    {
+      "name": "bio-epidemiological-genomics-pathogen-typing",
+      "source": "."
+    },
+    {
+      "name": "bio-epidemiological-genomics-phylodynamics",
+      "source": "."
+    },
+    {
+      "name": "bio-epidemiological-genomics-transmission-inference",
+      "source": "."
+    },
+    {
+      "name": "bio-epidemiological-genomics-variant-surveillance",
+      "source": "."
+    },
+    {
+      "name": "bio-epitranscriptomics-m6a-differential",
+      "source": "."
+    },
+    {
+      "name": "bio-epitranscriptomics-m6a-peak-calling",
+      "source": "."
+    },
+    {
+      "name": "bio-epitranscriptomics-m6anet-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-epitranscriptomics-merip-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "bio-epitranscriptomics-modification-visualization",
+      "source": "."
+    },
+    {
+      "name": "bio-experimental-design-batch-design",
+      "source": "."
+    },
+    {
+      "name": "bio-experimental-design-multiple-testing",
+      "source": "."
+    },
+    {
+      "name": "bio-experimental-design-power-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-experimental-design-sample-size",
+      "source": "."
+    },
+    {
+      "name": "bio-expression-matrix-counts-ingest",
+      "source": "."
+    },
+    {
+      "name": "bio-expression-matrix-gene-id-mapping",
+      "source": "."
+    },
+    {
+      "name": "bio-expression-matrix-metadata-joins",
+      "source": "."
+    },
+    {
+      "name": "bio-expression-matrix-sparse-handling",
+      "source": "."
+    },
+    {
+      "name": "bio-fastq-quality",
+      "source": "."
+    },
+    {
+      "name": "bio-filter-sequences",
+      "source": "."
+    },
+    {
+      "name": "bio-flow-cytometry-bead-normalization",
+      "source": "."
+    },
+    {
+      "name": "bio-flow-cytometry-clustering-phenotyping",
+      "source": "."
+    },
+    {
+      "name": "bio-flow-cytometry-compensation-transformation",
+      "source": "."
+    },
+    {
+      "name": "bio-flow-cytometry-cytometry-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-flow-cytometry-differential-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-flow-cytometry-doublet-detection",
+      "source": "."
+    },
+    {
+      "name": "bio-flow-cytometry-fcs-handling",
+      "source": "."
+    },
+    {
+      "name": "bio-flow-cytometry-gating-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-format-conversion",
+      "source": "."
+    },
+    {
+      "name": "bio-fragment-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-gatk-variant-calling",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-assembly-assembly-polishing",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-assembly-assembly-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-assembly-contamination-detection",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-assembly-hifi-assembly",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-assembly-long-read-assembly",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-assembly-metagenome-assembly",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-assembly-scaffolding",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-assembly-short-read-assembly",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-engineering-base-editing-design",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-engineering-grna-design",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-engineering-hdr-template-design",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-engineering-off-target-prediction",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-engineering-prime-editing-design",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-intervals-bed-file-basics",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-intervals-bigwig-tracks",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-intervals-coverage-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-intervals-gtf-gff-handling",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-intervals-interval-arithmetic",
+      "source": "."
+    },
+    {
+      "name": "bio-genome-intervals-proximity-operations",
+      "source": "."
+    },
+    {
+      "name": "bio-geo-data",
+      "source": "."
+    },
+    {
+      "name": "bio-hi-c-analysis-compartment-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-hi-c-analysis-contact-pairs",
+      "source": "."
+    },
+    {
+      "name": "bio-hi-c-analysis-hic-data-io",
+      "source": "."
+    },
+    {
+      "name": "bio-hi-c-analysis-hic-differential",
+      "source": "."
+    },
+    {
+      "name": "bio-hi-c-analysis-hic-visualization",
+      "source": "."
+    },
+    {
+      "name": "bio-hi-c-analysis-loop-calling",
+      "source": "."
+    },
+    {
+      "name": "bio-hi-c-analysis-matrix-operations",
+      "source": "."
+    },
+    {
+      "name": "bio-hi-c-analysis-tad-detection",
+      "source": "."
+    },
+    {
+      "name": "bio-imaging-mass-cytometry-cell-segmentation",
+      "source": "."
+    },
+    {
+      "name": "bio-imaging-mass-cytometry-data-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "bio-imaging-mass-cytometry-interactive-annotation",
+      "source": "."
+    },
+    {
+      "name": "bio-imaging-mass-cytometry-phenotyping",
+      "source": "."
+    },
+    {
+      "name": "bio-imaging-mass-cytometry-quality-metrics",
+      "source": "."
+    },
+    {
+      "name": "bio-imaging-mass-cytometry-spatial-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-immunoinformatics-epitope-prediction",
+      "source": "."
+    },
+    {
+      "name": "bio-immunoinformatics-immunogenicity-scoring",
+      "source": "."
+    },
+    {
+      "name": "bio-immunoinformatics-mhc-binding-prediction",
+      "source": "."
+    },
+    {
+      "name": "bio-immunoinformatics-neoantigen-prediction",
+      "source": "."
+    },
+    {
+      "name": "bio-immunoinformatics-tcr-epitope-binding",
+      "source": "."
+    },
+    {
+      "name": "bio-isoform-switching",
+      "source": "."
+    },
+    {
+      "name": "bio-liquid-biopsy-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-local-blast",
+      "source": "."
+    },
+    {
+      "name": "bio-long-read-sequencing-clair3-variants",
+      "source": "."
+    },
+    {
+      "name": "bio-long-read-sequencing-isoseq-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-long-read-sequencing-nanopore-methylation",
+      "source": "."
+    },
+    {
+      "name": "bio-longitudinal-monitoring",
+      "source": "."
+    },
+    {
+      "name": "bio-longread-alignment",
+      "source": "."
+    },
+    {
+      "name": "bio-longread-medaka",
+      "source": "."
+    },
+    {
+      "name": "bio-longread-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-longread-structural-variants",
+      "source": "."
+    },
+    {
+      "name": "bio-machine-learning-atlas-mapping",
+      "source": "."
+    },
+    {
+      "name": "bio-machine-learning-biomarker-discovery",
+      "source": "."
+    },
+    {
+      "name": "bio-machine-learning-model-validation",
+      "source": "."
+    },
+    {
+      "name": "bio-machine-learning-omics-classifiers",
+      "source": "."
+    },
+    {
+      "name": "bio-machine-learning-prediction-explanation",
+      "source": "."
+    },
+    {
+      "name": "bio-machine-learning-survival-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-metabolomics-lipidomics",
+      "source": "."
+    },
+    {
+      "name": "bio-metabolomics-metabolite-annotation",
+      "source": "."
+    },
+    {
+      "name": "bio-metabolomics-msdial-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "bio-metabolomics-normalization-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-metabolomics-pathway-mapping",
+      "source": "."
+    },
+    {
+      "name": "bio-metabolomics-statistical-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-metabolomics-targeted-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-metabolomics-xcms-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "bio-metagenomics-abundance",
+      "source": "."
+    },
+    {
+      "name": "bio-metagenomics-amr-detection",
+      "source": "."
+    },
+    {
+      "name": "bio-metagenomics-functional-profiling",
+      "source": "."
+    },
+    {
+      "name": "bio-metagenomics-kraken",
+      "source": "."
+    },
+    {
+      "name": "bio-metagenomics-metaphlan",
+      "source": "."
+    },
+    {
+      "name": "bio-metagenomics-strain-tracking",
+      "source": "."
+    },
+    {
+      "name": "bio-metagenomics-visualization",
+      "source": "."
+    },
+    {
+      "name": "bio-methylation-based-detection",
+      "source": "."
+    },
+    {
+      "name": "bio-methylation-bismark-alignment",
+      "source": "."
+    },
+    {
+      "name": "bio-methylation-calling",
+      "source": "."
+    },
+    {
+      "name": "bio-methylation-dmr-detection",
+      "source": "."
+    },
+    {
+      "name": "bio-methylation-methylkit",
+      "source": "."
+    },
+    {
+      "name": "bio-microbiome-amplicon-processing",
+      "source": "."
+    },
+    {
+      "name": "bio-microbiome-differential-abundance",
+      "source": "."
+    },
+    {
+      "name": "bio-microbiome-diversity-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-microbiome-functional-prediction",
+      "source": "."
+    },
+    {
+      "name": "bio-microbiome-qiime2-workflow",
+      "source": "."
+    },
+    {
+      "name": "bio-microbiome-taxonomy-assignment",
+      "source": "."
+    },
+    {
+      "name": "bio-molecular-descriptors",
+      "source": "."
+    },
+    {
+      "name": "bio-molecular-io",
+      "source": "."
+    },
+    {
+      "name": "bio-motif-search",
+      "source": "."
+    },
+    {
+      "name": "bio-multi-omics-data-harmonization",
+      "source": "."
+    },
+    {
+      "name": "bio-multi-omics-mixomics-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-multi-omics-mofa-integration",
+      "source": "."
+    },
+    {
+      "name": "bio-multi-omics-similarity-network",
+      "source": "."
+    },
+    {
+      "name": "bio-orchestrator",
+      "source": "."
+    },
+    {
+      "name": "bio-paired-end-fastq",
+      "source": "."
+    },
+    {
+      "name": "bio-pathway-enrichment-visualization",
+      "source": "."
+    },
+    {
+      "name": "bio-pathway-go-enrichment",
+      "source": "."
+    },
+    {
+      "name": "bio-pathway-gsea",
+      "source": "."
+    },
+    {
+      "name": "bio-pathway-kegg-pathways",
+      "source": "."
+    },
+    {
+      "name": "bio-pathway-reactome",
+      "source": "."
+    },
+    {
+      "name": "bio-pathway-wikipathways",
+      "source": "."
+    },
+    {
+      "name": "bio-pdb-geometric-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-pdb-structure-io",
+      "source": "."
+    },
+    {
+      "name": "bio-pdb-structure-modification",
+      "source": "."
+    },
+    {
+      "name": "bio-pdb-structure-navigation",
+      "source": "."
+    },
+    {
+      "name": "bio-phasing-imputation-genotype-imputation",
+      "source": "."
+    },
+    {
+      "name": "bio-phasing-imputation-haplotype-phasing",
+      "source": "."
+    },
+    {
+      "name": "bio-phasing-imputation-imputation-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-phasing-imputation-reference-panels",
+      "source": "."
+    },
+    {
+      "name": "bio-phylo-distance-calculations",
+      "source": "."
+    },
+    {
+      "name": "bio-phylo-modern-tree-inference",
+      "source": "."
+    },
+    {
+      "name": "bio-phylo-tree-io",
+      "source": "."
+    },
+    {
+      "name": "bio-phylo-tree-manipulation",
+      "source": "."
+    },
+    {
+      "name": "bio-phylo-tree-visualization",
+      "source": "."
+    },
+    {
+      "name": "bio-pileup-generation",
+      "source": "."
+    },
+    {
+      "name": "bio-population-genetics-association-testing",
+      "source": "."
+    },
+    {
+      "name": "bio-population-genetics-linkage-disequilibrium",
+      "source": "."
+    },
+    {
+      "name": "bio-population-genetics-plink-basics",
+      "source": "."
+    },
+    {
+      "name": "bio-population-genetics-population-structure",
+      "source": "."
+    },
+    {
+      "name": "bio-population-genetics-scikit-allel-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-population-genetics-selection-statistics",
+      "source": "."
+    },
+    {
+      "name": "bio-primer-design-primer-basics",
+      "source": "."
+    },
+    {
+      "name": "bio-primer-design-primer-validation",
+      "source": "."
+    },
+    {
+      "name": "bio-primer-design-qpcr-primers",
+      "source": "."
+    },
+    {
+      "name": "bio-proteomics-data-import",
+      "source": "."
+    },
+    {
+      "name": "bio-proteomics-dia-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-proteomics-differential-abundance",
+      "source": "."
+    },
+    {
+      "name": "bio-proteomics-peptide-identification",
+      "source": "."
+    },
+    {
+      "name": "bio-proteomics-protein-inference",
+      "source": "."
+    },
+    {
+      "name": "bio-proteomics-proteomics-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-proteomics-ptm-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-proteomics-quantification",
+      "source": "."
+    },
+    {
+      "name": "bio-proteomics-spectral-libraries",
+      "source": "."
+    },
+    {
+      "name": "bio-reaction-enumeration",
+      "source": "."
+    },
+    {
+      "name": "bio-read-alignment-bowtie2-alignment",
+      "source": "."
+    },
+    {
+      "name": "bio-read-alignment-bwa-alignment",
+      "source": "."
+    },
+    {
+      "name": "bio-read-alignment-hisat2-alignment",
+      "source": "."
+    },
+    {
+      "name": "bio-read-alignment-star-alignment",
+      "source": "."
+    },
+    {
+      "name": "bio-read-qc-adapter-trimming",
+      "source": "."
+    },
+    {
+      "name": "bio-read-qc-contamination-screening",
+      "source": "."
+    },
+    {
+      "name": "bio-read-qc-fastp-workflow",
+      "source": "."
+    },
+    {
+      "name": "bio-read-qc-quality-filtering",
+      "source": "."
+    },
+    {
+      "name": "bio-read-qc-quality-reports",
+      "source": "."
+    },
+    {
+      "name": "bio-read-qc-umi-processing",
+      "source": "."
+    },
+    {
+      "name": "bio-read-sequences",
+      "source": "."
+    },
+    {
+      "name": "bio-reference-operations",
+      "source": "."
+    },
+    {
+      "name": "bio-reporting-automated-qc-reports",
+      "source": "."
+    },
+    {
+      "name": "bio-reporting-figure-export",
+      "source": "."
+    },
+    {
+      "name": "bio-reporting-jupyter-reports",
+      "source": "."
+    },
+    {
+      "name": "bio-reporting-quarto-reports",
+      "source": "."
+    },
+    {
+      "name": "bio-reporting-rmarkdown-reports",
+      "source": "."
+    },
+    {
+      "name": "bio-research-tools-biomarker-signature-studio",
+      "source": "."
+    },
+    {
+      "name": "bio-restriction-enzyme-selection",
+      "source": "."
+    },
+    {
+      "name": "bio-restriction-fragment-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-restriction-mapping",
+      "source": "."
+    },
+    {
+      "name": "bio-restriction-sites",
+      "source": "."
+    },
+    {
+      "name": "bio-reverse-complement",
+      "source": "."
+    },
+    {
+      "name": "bio-ribo-seq-orf-detection",
+      "source": "."
+    },
+    {
+      "name": "bio-ribo-seq-riboseq-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "bio-ribo-seq-ribosome-periodicity",
+      "source": "."
+    },
+    {
+      "name": "bio-ribo-seq-ribosome-stalling",
+      "source": "."
+    },
+    {
+      "name": "bio-ribo-seq-translation-efficiency",
+      "source": "."
+    },
+    {
+      "name": "bio-rna-quantification-alignment-free-quant",
+      "source": "."
+    },
+    {
+      "name": "bio-rna-quantification-count-matrix-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-rna-quantification-featurecounts-counting",
+      "source": "."
+    },
+    {
+      "name": "bio-rna-quantification-tximport-workflow",
+      "source": "."
+    },
+    {
+      "name": "bio-rnaseq-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-sam-bam-basics",
+      "source": "."
+    },
+    {
+      "name": "bio-sashimi-plots",
+      "source": "."
+    },
+    {
+      "name": "bio-seq-objects",
+      "source": "."
+    },
+    {
+      "name": "bio-sequence-properties",
+      "source": "."
+    },
+    {
+      "name": "bio-sequence-similarity",
+      "source": "."
+    },
+    {
+      "name": "bio-sequence-slicing",
+      "source": "."
+    },
+    {
+      "name": "bio-sequence-statistics",
+      "source": "."
+    },
+    {
+      "name": "bio-similarity-searching",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-batch-integration",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-cell-annotation",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-cell-communication",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-clustering",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-data-io",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-doublet-detection",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-lineage-tracing",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-markers-annotation",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-metabolite-communication",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-multimodal-integration",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-perturb-seq",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-scatac-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-splicing",
+      "source": "."
+    },
+    {
+      "name": "bio-single-cell-trajectory-inference",
+      "source": "."
+    },
+    {
+      "name": "bio-small-rna-seq-differential-mirna",
+      "source": "."
+    },
+    {
+      "name": "bio-small-rna-seq-mirdeep2-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-small-rna-seq-mirge3-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-small-rna-seq-smrna-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "bio-small-rna-seq-target-prediction",
+      "source": "."
+    },
+    {
+      "name": "bio-spatial-transcriptomics-image-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-spatial-transcriptomics-spatial-communication",
+      "source": "."
+    },
+    {
+      "name": "bio-spatial-transcriptomics-spatial-data-io",
+      "source": "."
+    },
+    {
+      "name": "bio-spatial-transcriptomics-spatial-deconvolution",
+      "source": "."
+    },
+    {
+      "name": "bio-spatial-transcriptomics-spatial-domains",
+      "source": "."
+    },
+    {
+      "name": "bio-spatial-transcriptomics-spatial-multiomics",
+      "source": "."
+    },
+    {
+      "name": "bio-spatial-transcriptomics-spatial-neighbors",
+      "source": "."
+    },
+    {
+      "name": "bio-spatial-transcriptomics-spatial-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "bio-spatial-transcriptomics-spatial-proteomics",
+      "source": "."
+    },
+    {
+      "name": "bio-spatial-transcriptomics-spatial-statistics",
+      "source": "."
+    },
+    {
+      "name": "bio-spatial-transcriptomics-spatial-visualization",
+      "source": "."
+    },
+    {
+      "name": "bio-splicing-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-splicing-qc",
+      "source": "."
+    },
+    {
+      "name": "bio-splicing-quantification",
+      "source": "."
+    },
+    {
+      "name": "bio-sra-data",
+      "source": "."
+    },
+    {
+      "name": "bio-structural-biology-alphafold-predictions",
+      "source": "."
+    },
+    {
+      "name": "bio-structural-biology-modern-structure-prediction",
+      "source": "."
+    },
+    {
+      "name": "bio-substructure-search",
+      "source": "."
+    },
+    {
+      "name": "bio-systems-biology-context-specific-models",
+      "source": "."
+    },
+    {
+      "name": "bio-systems-biology-flux-balance-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-systems-biology-gene-essentiality",
+      "source": "."
+    },
+    {
+      "name": "bio-systems-biology-metabolic-reconstruction",
+      "source": "."
+    },
+    {
+      "name": "bio-systems-biology-model-curation",
+      "source": "."
+    },
+    {
+      "name": "bio-tcr-bcr-analysis-immcantation-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-tcr-bcr-analysis-mixcr-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-tcr-bcr-analysis-repertoire-visualization",
+      "source": "."
+    },
+    {
+      "name": "bio-tcr-bcr-analysis-scirpy-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-tcr-bcr-analysis-vdjtools-analysis",
+      "source": "."
+    },
+    {
+      "name": "bio-transcription-translation",
+      "source": "."
+    },
+    {
+      "name": "bio-tumor-fraction-estimation",
+      "source": "."
+    },
+    {
+      "name": "bio-uniprot-access",
+      "source": "."
+    },
+    {
+      "name": "bio-variant-annotation",
+      "source": "."
+    },
+    {
+      "name": "bio-variant-calling",
+      "source": "."
+    },
+    {
+      "name": "bio-variant-calling-clinical-interpretation",
+      "source": "."
+    },
+    {
+      "name": "bio-variant-calling-deepvariant",
+      "source": "."
+    },
+    {
+      "name": "bio-variant-calling-filtering-best-practices",
+      "source": "."
+    },
+    {
+      "name": "bio-variant-calling-joint-calling",
+      "source": "."
+    },
+    {
+      "name": "bio-variant-calling-structural-variant-calling",
+      "source": "."
+    },
+    {
+      "name": "bio-variant-normalization",
+      "source": "."
+    },
+    {
+      "name": "bio-vcf-basics",
+      "source": "."
+    },
+    {
+      "name": "bio-vcf-manipulation",
+      "source": "."
+    },
+    {
+      "name": "bio-vcf-statistics",
+      "source": "."
+    },
+    {
+      "name": "bio-virtual-screening",
+      "source": "."
+    },
+    {
+      "name": "bio-workflow-management-cwl-workflows",
+      "source": "."
+    },
+    {
+      "name": "bio-workflow-management-nextflow-pipelines",
+      "source": "."
+    },
+    {
+      "name": "bio-workflow-management-snakemake-workflows",
+      "source": "."
+    },
+    {
+      "name": "bio-workflow-management-wdl-workflows",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-atacseq-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-biomarker-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-chipseq-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-clip-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-cnv-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-crispr-editing-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-crispr-screen-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-cytometry-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-expression-to-pathways",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-fastq-to-variants",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-genome-assembly-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-gwas-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-hic-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-imc-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-longread-sv-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-merip-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-metabolic-modeling-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-metabolomics-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-metagenomics-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-methylation-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-microbiome-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-multi-omics-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-multiome-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-neoantigen-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-outbreak-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-proteomics-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-riboseq-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-rnaseq-to-de",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-scrnaseq-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-smrna-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-somatic-variant-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-spatial-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-workflows-tcr-pipeline",
+      "source": "."
+    },
+    {
+      "name": "bio-write-sequences",
+      "source": "."
+    },
+    {
+      "name": "bioinformatics-singlecell",
+      "source": "."
+    },
+    {
+      "name": "biokernel",
+      "source": "."
+    },
+    {
+      "name": "biologist-analyst",
+      "source": "."
+    },
+    {
+      "name": "biomaster-workflows",
+      "source": "."
+    },
+    {
+      "name": "biomcp-server",
+      "source": "."
+    },
+    {
+      "name": "biomedical-data-analysis",
+      "source": "."
+    },
+    {
+      "name": "biomedical-search",
+      "source": "."
+    },
+    {
+      "name": "biomni",
+      "source": "."
+    },
+    {
+      "name": "biomni-general-agent",
+      "source": "."
+    },
+    {
+      "name": "biomni-research-agent",
+      "source": "."
+    },
+    {
+      "name": "biopython",
+      "source": "."
+    },
+    {
+      "name": "biorxiv-database",
+      "source": "."
+    },
+    {
+      "name": "bioservices",
+      "source": "."
+    },
+    {
+      "name": "boltz",
+      "source": "."
+    },
+    {
+      "name": "boltzgen",
+      "source": "."
+    },
+    {
+      "name": "bone-marrow-ai-agent",
+      "source": "."
+    },
+    {
+      "name": "brainstorming",
+      "source": "."
+    },
+    {
+      "name": "brenda-database",
+      "source": "."
+    },
+    {
+      "name": "bulk-combat-correction",
+      "source": "."
+    },
+    {
+      "name": "bulk-deg-analysis",
+      "source": "."
+    },
+    {
+      "name": "bulk-deseq2-analysis",
+      "source": "."
+    },
+    {
+      "name": "bulk-stringdb-ppi",
+      "source": "."
+    },
+    {
+      "name": "bulk-to-single-deconvolution",
+      "source": "."
+    },
+    {
+      "name": "bulk-trajblend-interpolation",
+      "source": "."
+    },
+    {
+      "name": "bulk-wgcna-analysis",
+      "source": "."
+    },
+    {
+      "name": "cancer-metabolism-agent",
+      "source": "."
+    },
+    {
+      "name": "care-coordination",
+      "source": "."
+    },
+    {
+      "name": "cart-design-optimizer-agent",
+      "source": "."
+    },
+    {
+      "name": "cbioportal-database",
+      "source": "."
+    },
+    {
+      "name": "cell-free-expression",
+      "source": "."
+    },
+    {
+      "name": "cellagent-annotation",
+      "source": "."
+    },
+    {
+      "name": "cellfree-rna-agent",
+      "source": "."
+    },
+    {
+      "name": "cellular-senescence-agent",
+      "source": "."
+    },
+    {
+      "name": "cellxgene-census",
+      "source": "."
+    },
+    {
+      "name": "chai",
+      "source": "."
+    },
+    {
+      "name": "chatehr-clinician-assistant",
+      "source": "."
+    },
+    {
+      "name": "chematagent-drug-discovery",
+      "source": "."
+    },
+    {
+      "name": "chembl-database",
+      "source": "."
+    },
+    {
+      "name": "chembl-search",
+      "source": "."
+    },
+    {
+      "name": "chemcrow-drug-discovery",
+      "source": "."
+    },
+    {
+      "name": "chemical-property-lookup",
+      "source": "."
+    },
+    {
+      "name": "chemist-analyst",
+      "source": "."
+    },
+    {
+      "name": "chemistry-agent",
+      "source": "."
+    },
+    {
+      "name": "chip-clonal-hematopoiesis-agent",
+      "source": "."
+    },
+    {
+      "name": "chromosomal-instability-agent",
+      "source": "."
+    },
+    {
+      "name": "citation-management",
+      "source": "."
+    },
+    {
+      "name": "claims-appeals",
+      "source": "."
+    },
+    {
+      "name": "claw-ancestry-pca",
+      "source": "."
+    },
+    {
+      "name": "claw-metagenomics",
+      "source": "."
+    },
+    {
+      "name": "claw-semantic-sim",
+      "source": "."
+    },
+    {
+      "name": "clinical-decision-support",
+      "source": "."
+    },
+    {
+      "name": "clinical-diagnostic-reasoning",
+      "source": "."
+    },
+    {
+      "name": "clinical-nlp-extractor",
+      "source": "."
+    },
+    {
+      "name": "clinical-note-summarization",
+      "source": "."
+    },
+    {
+      "name": "clinical-reports",
+      "source": "."
+    },
+    {
+      "name": "clinical-trial-protocol-skill",
+      "source": "."
+    },
+    {
+      "name": "clinical-trials-search",
+      "source": "."
+    },
+    {
+      "name": "clinicaltrials-database",
+      "source": "."
+    },
+    {
+      "name": "clinpgx",
+      "source": "."
+    },
+    {
+      "name": "clinpgx-database",
+      "source": "."
+    },
+    {
+      "name": "clinvar-database",
+      "source": "."
+    },
+    {
+      "name": "cnv-caller-agent",
+      "source": "."
+    },
+    {
+      "name": "coagulation-thrombosis-agent",
+      "source": "."
+    },
+    {
+      "name": "cobrapy",
+      "source": "."
+    },
+    {
+      "name": "compbioagent-explorer",
+      "source": "."
+    },
+    {
+      "name": "computational-pathology-agent",
+      "source": "."
+    },
+    {
+      "name": "convergence-study",
+      "source": "."
+    },
+    {
+      "name": "cosmic-database",
+      "source": "."
+    },
+    {
+      "name": "crisis-detection-intervention-ai",
+      "source": "."
+    },
+    {
+      "name": "crisis-response-protocol",
+      "source": "."
+    },
+    {
+      "name": "crispr-guide-design",
+      "source": "."
+    },
+    {
+      "name": "crispr-offtarget-predictor",
+      "source": "."
+    },
+    {
+      "name": "cryoem-ai-drug-design-agent",
+      "source": "."
+    },
+    {
+      "name": "ctdna-dynamics-mrd-agent",
+      "source": "."
+    },
+    {
+      "name": "cytokine-storm-analysis-agent",
+      "source": "."
+    },
+    {
+      "name": "dask",
+      "source": "."
+    },
+    {
+      "name": "data-stats-analysis",
+      "source": "."
+    },
+    {
+      "name": "data-transform",
+      "source": "."
+    },
+    {
+      "name": "data-visualization-biomedical",
+      "source": "."
+    },
+    {
+      "name": "data-visualization-expert",
+      "source": "."
+    },
+    {
+      "name": "data-viz-plots",
+      "source": "."
+    },
+    {
+      "name": "datacommons-client",
+      "source": "."
+    },
+    {
+      "name": "datamol",
+      "source": "."
+    },
+    {
+      "name": "deep-research",
+      "source": "."
+    },
+    {
+      "name": "deep-research-swarm",
+      "source": "."
+    },
+    {
+      "name": "deep-visual-proteomics-agent",
+      "source": "."
+    },
+    {
+      "name": "deepchem",
+      "source": "."
+    },
+    {
+      "name": "deeptools",
+      "source": "."
+    },
+    {
+      "name": "depmap",
+      "source": "."
+    },
+    {
+      "name": "diffdock",
+      "source": "."
+    },
+    {
+      "name": "differentiation-schemes",
+      "source": "."
+    },
+    {
+      "name": "digital-twin-clinical-agent",
+      "source": "."
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "source": "."
+    },
+    {
+      "name": "dnanexus-integration",
+      "source": "."
+    },
+    {
+      "name": "doc-coauthoring",
+      "source": "."
+    },
+    {
+      "name": "docx",
+      "source": "."
+    },
+    {
+      "name": "docx-official",
+      "source": "."
+    },
+    {
+      "name": "drug-discovery-search",
+      "source": "."
+    },
+    {
+      "name": "drug-interaction-checker",
+      "source": "."
+    },
+    {
+      "name": "drug-labels-search",
+      "source": "."
+    },
+    {
+      "name": "drug-photo",
+      "source": "."
+    },
+    {
+      "name": "drugbank-database",
+      "source": "."
+    },
+    {
+      "name": "drugbank-search",
+      "source": "."
+    },
+    {
+      "name": "ehr-fhir-integration",
+      "source": "."
+    },
+    {
+      "name": "emergency-card",
+      "source": "."
+    },
+    {
+      "name": "ena-database",
+      "source": "."
+    },
+    {
+      "name": "ensembl-database",
+      "source": "."
+    },
+    {
+      "name": "epidemiologist-analyst",
+      "source": "."
+    },
+    {
+      "name": "epigenomics-methylgpt-agent",
+      "source": "."
+    },
+    {
+      "name": "equity-scorer",
+      "source": "."
+    },
+    {
+      "name": "esm",
+      "source": "."
+    },
+    {
+      "name": "etetoolkit",
+      "source": "."
+    },
+    {
+      "name": "executing-plans",
+      "source": "."
+    },
+    {
+      "name": "exosome-ev-analysis-agent",
+      "source": "."
+    },
+    {
+      "name": "exploratory-data-analysis",
+      "source": "."
+    },
+    {
+      "name": "family-health-analyzer",
+      "source": "."
+    },
+    {
+      "name": "fastq-analysis",
+      "source": "."
+    },
+    {
+      "name": "fda-database",
+      "source": "."
+    },
+    {
+      "name": "fhir-developer-skill",
+      "source": "."
+    },
+    {
+      "name": "fhir-development",
+      "source": "."
+    },
+    {
+      "name": "find-skills",
+      "source": "."
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "source": "."
+    },
+    {
+      "name": "fitness-analyzer",
+      "source": "."
+    },
+    {
+      "name": "flowio",
+      "source": "."
+    },
+    {
+      "name": "foldseek",
+      "source": "."
+    },
+    {
+      "name": "galaxy-bridge",
+      "source": "."
+    },
+    {
+      "name": "gene-database",
+      "source": "."
+    },
+    {
+      "name": "gene-panel-design-agent",
+      "source": "."
+    },
+    {
+      "name": "geniml",
+      "source": "."
+    },
+    {
+      "name": "genome-compare",
+      "source": "."
+    },
+    {
+      "name": "geo-database",
+      "source": "."
+    },
+    {
+      "name": "geopandas",
+      "source": "."
+    },
+    {
+      "name": "gget",
+      "source": "."
+    },
+    {
+      "name": "ginkgo-cloud-lab",
+      "source": "."
+    },
+    {
+      "name": "glycoengineering",
+      "source": "."
+    },
+    {
+      "name": "gnomad-database",
+      "source": "."
+    },
+    {
+      "name": "goal-analyzer",
+      "source": "."
+    },
+    {
+      "name": "grief-companion",
+      "source": "."
+    },
+    {
+      "name": "gsea-enrichment",
+      "source": "."
+    },
+    {
+      "name": "gtars",
+      "source": "."
+    },
+    {
+      "name": "gtex-database",
+      "source": "."
+    },
+    {
+      "name": "gwas-database",
+      "source": "."
+    },
+    {
+      "name": "gwas-lookup",
+      "source": "."
+    },
+    {
+      "name": "gwas-prs",
+      "source": "."
+    },
+    {
+      "name": "health-trend-analyzer",
+      "source": "."
+    },
+    {
+      "name": "hemoglobinopathy-analysis-agent",
+      "source": "."
+    },
+    {
+      "name": "hipaa-compliance",
+      "source": "."
+    },
+    {
+      "name": "histolab",
+      "source": "."
+    },
+    {
+      "name": "hmdb-database",
+      "source": "."
+    },
+    {
+      "name": "hrd-analysis-agent",
+      "source": "."
+    },
+    {
+      "name": "hrv-alexithymia-expert",
+      "source": "."
+    },
+    {
+      "name": "hypogenic",
+      "source": "."
+    },
+    {
+      "name": "hypothesis-generation",
+      "source": "."
+    },
+    {
+      "name": "imaging-data-commons",
+      "source": "."
+    },
+    {
+      "name": "immune-checkpoint-combination-agent",
+      "source": "."
+    },
+    {
+      "name": "infographics",
+      "source": "."
+    },
+    {
+      "name": "instrument-data-to-allotrope",
+      "source": "."
+    },
+    {
+      "name": "interpro-database",
+      "source": "."
+    },
+    {
+      "name": "ipsae",
+      "source": "."
+    },
+    {
+      "name": "iso-13485-certification",
+      "source": "."
+    },
+    {
+      "name": "jaspar-database",
+      "source": "."
+    },
+    {
+      "name": "jungian-psychologist",
+      "source": "."
+    },
+    {
+      "name": "kegg-database",
+      "source": "."
+    },
+    {
+      "name": "knowledge-synthesis",
+      "source": "."
+    },
+    {
+      "name": "kragen-knowledge-graph",
+      "source": "."
+    },
+    {
+      "name": "lab-results",
+      "source": "."
+    },
+    {
+      "name": "labarchive-integration",
+      "source": "."
+    },
+    {
+      "name": "labstep",
+      "source": "."
+    },
+    {
+      "name": "lamindb",
+      "source": "."
+    },
+    {
+      "name": "latchbio-integration",
+      "source": "."
+    },
+    {
+      "name": "latex-posters",
+      "source": "."
+    },
+    {
+      "name": "leads-literature-mining",
+      "source": "."
+    },
+    {
+      "name": "ligandmpnn",
+      "source": "."
+    },
+    {
+      "name": "linear-solvers",
+      "source": "."
+    },
+    {
+      "name": "liquid-biopsy-analytics-agent",
+      "source": "."
+    },
+    {
+      "name": "lit-synthesizer",
+      "source": "."
+    },
+    {
+      "name": "literature-review",
+      "source": "."
+    },
+    {
+      "name": "literature-search",
+      "source": "."
+    },
+    {
+      "name": "lobster-bioinformatics",
+      "source": "."
+    },
+    {
+      "name": "long-read-sequencing-agent",
+      "source": "."
+    },
+    {
+      "name": "mage-antibody-generator",
+      "source": "."
+    },
+    {
+      "name": "markdown-mermaid-writing",
+      "source": "."
+    },
+    {
+      "name": "markitdown",
+      "source": "."
+    },
+    {
+      "name": "matchms",
+      "source": "."
+    },
+    {
+      "name": "matplotlib",
+      "source": "."
+    },
+    {
+      "name": "mcpmed-bioinformatics-server",
+      "source": "."
+    },
+    {
+      "name": "medchem",
+      "source": "."
+    },
+    {
+      "name": "medea-therapeutic-discovery",
+      "source": "."
+    },
+    {
+      "name": "medical-entity-extractor",
+      "source": "."
+    },
+    {
+      "name": "medical-imaging-review",
+      "source": "."
+    },
+    {
+      "name": "medical-research-toolkit",
+      "source": "."
+    },
+    {
+      "name": "medical-specialty-briefs",
+      "source": "."
+    },
+    {
+      "name": "medrxiv-search",
+      "source": "."
+    },
+    {
+      "name": "mental-health-analyzer",
+      "source": "."
+    },
+    {
+      "name": "mesh-generation",
+      "source": "."
+    },
+    {
+      "name": "metabolomics-workbench-database",
+      "source": "."
+    },
+    {
+      "name": "microbiome-cancer-agent",
+      "source": "."
+    },
+    {
+      "name": "modern-drug-rehab-computer",
+      "source": "."
+    },
+    {
+      "name": "molecular-dynamics",
+      "source": "."
+    },
+    {
+      "name": "molecular-glue-discovery-agent",
+      "source": "."
+    },
+    {
+      "name": "molecule-evolution-agent",
+      "source": "."
+    },
+    {
+      "name": "molfeat",
+      "source": "."
+    },
+    {
+      "name": "monarch-database",
+      "source": "."
+    },
+    {
+      "name": "mpn-progression-monitor-agent",
+      "source": "."
+    },
+    {
+      "name": "mpn-research-assistant",
+      "source": "."
+    },
+    {
+      "name": "mrd-edge-detection-agent",
+      "source": "."
+    },
+    {
+      "name": "multi-ancestry-prs-agent",
+      "source": "."
+    },
+    {
+      "name": "multi-search-engine",
+      "source": "."
+    },
+    {
+      "name": "multimodal-medical-imaging",
+      "source": "."
+    },
+    {
+      "name": "multimodal-radpath-fusion-agent",
+      "source": "."
+    },
+    {
+      "name": "myeloma-mrd-agent",
+      "source": "."
+    },
+    {
+      "name": "networkx",
+      "source": "."
+    },
+    {
+      "name": "neurokit2",
+      "source": "."
+    },
+    {
+      "name": "neuropixels-analysis",
+      "source": "."
+    },
+    {
+      "name": "nextflow-development",
+      "source": "."
+    },
+    {
+      "name": "ngs-analysis",
+      "source": "."
+    },
+    {
+      "name": "nicheformer-spatial-agent",
+      "source": "."
+    },
+    {
+      "name": "nk-cell-therapy-agent",
+      "source": "."
+    },
+    {
+      "name": "nonlinear-solvers",
+      "source": "."
+    },
+    {
+      "name": "numerical-integration",
+      "source": "."
+    },
+    {
+      "name": "numerical-stability",
+      "source": "."
+    },
+    {
+      "name": "nutrition-analyzer",
+      "source": "."
+    },
+    {
+      "name": "occupational-health-analyzer",
+      "source": "."
+    },
+    {
+      "name": "omero-integration",
+      "source": "."
+    },
+    {
+      "name": "ontology-explorer",
+      "source": "."
+    },
+    {
+      "name": "ontology-mapper",
+      "source": "."
+    },
+    {
+      "name": "ontology-validator",
+      "source": "."
+    },
+    {
+      "name": "open-notebook",
+      "source": "."
+    },
+    {
+      "name": "open-targets-search",
+      "source": "."
+    },
+    {
+      "name": "openalex-database",
+      "source": "."
+    },
+    {
+      "name": "opentargets-database",
+      "source": "."
+    },
+    {
+      "name": "opentrons-integration",
+      "source": "."
+    },
+    {
+      "name": "opentrons-protocol-agent",
+      "source": "."
+    },
+    {
+      "name": "organoid-drug-response-agent",
+      "source": "."
+    },
+    {
+      "name": "pan-cancer-multiomics-agent",
+      "source": "."
+    },
+    {
+      "name": "paper-2-web",
+      "source": "."
+    },
+    {
+      "name": "parameter-optimization",
+      "source": "."
+    },
+    {
+      "name": "patents-search",
+      "source": "."
+    },
+    {
+      "name": "pathml",
+      "source": "."
+    },
+    {
+      "name": "patiently-ai",
+      "source": "."
+    },
+    {
+      "name": "pdb",
+      "source": "."
+    },
+    {
+      "name": "pdb-database",
+      "source": "."
+    },
+    {
+      "name": "pdf",
+      "source": "."
+    },
+    {
+      "name": "pdf-anthropic",
+      "source": "."
+    },
+    {
+      "name": "pdf-processing",
+      "source": "."
+    },
+    {
+      "name": "pdf-processing-pro",
+      "source": "."
+    },
+    {
+      "name": "pdx-model-analysis-agent",
+      "source": "."
+    },
+    {
+      "name": "peer-review",
+      "source": "."
+    },
+    {
+      "name": "performance-profiling",
+      "source": "."
+    },
+    {
+      "name": "perplexity-search",
+      "source": "."
+    },
+    {
+      "name": "pharmacogenomics-agent",
+      "source": "."
+    },
+    {
+      "name": "pharmgx-reporter",
+      "source": "."
+    },
+    {
+      "name": "phylogenetics",
+      "source": "."
+    },
+    {
+      "name": "plotly",
+      "source": "."
+    },
+    {
+      "name": "polars",
+      "source": "."
+    },
+    {
+      "name": "popeve-variant-predictor-agent",
+      "source": "."
+    },
+    {
+      "name": "post-processing",
+      "source": "."
+    },
+    {
+      "name": "pptx",
+      "source": "."
+    },
+    {
+      "name": "pptx-official",
+      "source": "."
+    },
+    {
+      "name": "pptx-posters",
+      "source": "."
+    },
+    {
+      "name": "precision-oncology-agent",
+      "source": "."
+    },
+    {
+      "name": "prior-auth-coworker",
+      "source": "."
+    },
+    {
+      "name": "prior-auth-review-skill",
+      "source": "."
+    },
+    {
+      "name": "profile-report",
+      "source": "."
+    },
+    {
+      "name": "protac-design-agent",
+      "source": "."
+    },
+    {
+      "name": "protein-design-workflow",
+      "source": "."
+    },
+    {
+      "name": "protein-qc",
+      "source": "."
+    },
+    {
+      "name": "protein-structure-prediction",
+      "source": "."
+    },
+    {
+      "name": "proteinmpnn",
+      "source": "."
+    },
+    {
+      "name": "protocolsio-integration",
+      "source": "."
+    },
+    {
+      "name": "prs-net-deep-learning-agent",
+      "source": "."
+    },
+    {
+      "name": "psychologist-analyst",
+      "source": "."
+    },
+    {
+      "name": "pubchem-database",
+      "source": "."
+    },
+    {
+      "name": "pubmed-database",
+      "source": "."
+    },
+    {
+      "name": "pubmed-search",
+      "source": "."
+    },
+    {
+      "name": "pydeseq2",
+      "source": "."
+    },
+    {
+      "name": "pydicom",
+      "source": "."
+    },
+    {
+      "name": "pyhealth",
+      "source": "."
+    },
+    {
+      "name": "pylabrobot",
+      "source": "."
+    },
+    {
+      "name": "pymc",
+      "source": "."
+    },
+    {
+      "name": "pymoo",
+      "source": "."
+    },
+    {
+      "name": "pyopenms",
+      "source": "."
+    },
+    {
+      "name": "pysam",
+      "source": "."
+    },
+    {
+      "name": "pytdc",
+      "source": "."
+    },
+    {
+      "name": "pytorch-lightning",
+      "source": "."
+    },
+    {
+      "name": "pyzotero",
+      "source": "."
+    },
+    {
+      "name": "radgpt-radiology-reporter",
+      "source": "."
+    },
+    {
+      "name": "radiomics-pathomics-fusion-agent",
+      "source": "."
+    },
+    {
+      "name": "rdkit",
+      "source": "."
+    },
+    {
+      "name": "reactome-database",
+      "source": "."
+    },
+    {
+      "name": "receiving-code-review",
+      "source": "."
+    },
+    {
+      "name": "recovery-community-moderator",
+      "source": "."
+    },
+    {
+      "name": "regulatory-drafter",
+      "source": "."
+    },
+    {
+      "name": "regulatory-drafting",
+      "source": "."
+    },
+    {
+      "name": "rehabilitation-analyzer",
+      "source": "."
+    },
+    {
+      "name": "repro-enforcer",
+      "source": "."
+    },
+    {
+      "name": "requesting-code-review",
+      "source": "."
+    },
+    {
+      "name": "research-grants",
+      "source": "."
+    },
+    {
+      "name": "research-literature",
+      "source": "."
+    },
+    {
+      "name": "research-lookup",
+      "source": "."
+    },
+    {
+      "name": "rfdiffusion",
+      "source": "."
+    },
+    {
+      "name": "rna-velocity-agent",
+      "source": "."
+    },
+    {
+      "name": "scanpy",
+      "source": "."
+    },
+    {
+      "name": "scfoundation-model-agent",
+      "source": "."
+    },
+    {
+      "name": "scientific-brainstorming",
+      "source": "."
+    },
+    {
+      "name": "scientific-critical-thinking",
+      "source": "."
+    },
+    {
+      "name": "scientific-manuscript",
+      "source": "."
+    },
+    {
+      "name": "scientific-problem-selection",
+      "source": "."
+    },
+    {
+      "name": "scientific-schematics",
+      "source": "."
+    },
+    {
+      "name": "scientific-slides",
+      "source": "."
+    },
+    {
+      "name": "scientific-visualization",
+      "source": "."
+    },
+    {
+      "name": "scientific-writing",
+      "source": "."
+    },
+    {
+      "name": "scikit-bio",
+      "source": "."
+    },
+    {
+      "name": "scikit-learn",
+      "source": "."
+    },
+    {
+      "name": "scikit-survival",
+      "source": "."
+    },
+    {
+      "name": "scrna-orchestrator",
+      "source": "."
+    },
+    {
+      "name": "scrna-qc",
+      "source": "."
+    },
+    {
+      "name": "scvelo",
+      "source": "."
+    },
+    {
+      "name": "scvi-tools",
+      "source": "."
+    },
+    {
+      "name": "seaborn",
+      "source": "."
+    },
+    {
+      "name": "search-strategy",
+      "source": "."
+    },
+    {
+      "name": "seq-wrangler",
+      "source": "."
+    },
+    {
+      "name": "shap",
+      "source": "."
+    },
+    {
+      "name": "simo-multiomics-integration-agent",
+      "source": "."
+    },
+    {
+      "name": "simpy",
+      "source": "."
+    },
+    {
+      "name": "simulation-orchestrator",
+      "source": "."
+    },
+    {
+      "name": "simulation-validator",
+      "source": "."
+    },
+    {
+      "name": "single-annotation",
+      "source": "."
+    },
+    {
+      "name": "single-cell-rna-qc",
+      "source": "."
+    },
+    {
+      "name": "single-cellphone-db",
+      "source": "."
+    },
+    {
+      "name": "single-clustering",
+      "source": "."
+    },
+    {
+      "name": "single-downstream-analysis",
+      "source": "."
+    },
+    {
+      "name": "single-multiomics",
+      "source": "."
+    },
+    {
+      "name": "single-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "single-to-spatial-mapping",
+      "source": "."
+    },
+    {
+      "name": "single-trajectory",
+      "source": "."
+    },
+    {
+      "name": "sleep-analyzer",
+      "source": "."
+    },
+    {
+      "name": "slurm-job-script-generator",
+      "source": "."
+    },
+    {
+      "name": "solublempnn",
+      "source": "."
+    },
+    {
+      "name": "spatial-agent",
+      "source": "."
+    },
+    {
+      "name": "spatial-epigenomics-agent",
+      "source": "."
+    },
+    {
+      "name": "spatial-transcriptomics-agent",
+      "source": "."
+    },
+    {
+      "name": "spatial-transcriptomics-analysis",
+      "source": "."
+    },
+    {
+      "name": "spatial-tutorials",
+      "source": "."
+    },
+    {
+      "name": "speech-pathology-ai",
+      "source": "."
+    },
+    {
+      "name": "statistical-analysis",
+      "source": "."
+    },
+    {
+      "name": "statsmodels",
+      "source": "."
+    },
+    {
+      "name": "string-database",
+      "source": "."
+    },
+    {
+      "name": "struct-predictor",
+      "source": "."
+    },
+    {
+      "name": "subagent-driven-development",
+      "source": "."
+    },
+    {
+      "name": "systematic-debugging",
+      "source": "."
+    },
+    {
+      "name": "tcell-exhaustion-analysis-agent",
+      "source": "."
+    },
+    {
+      "name": "tcga-preprocessing",
+      "source": "."
+    },
+    {
+      "name": "tcm-constitution-analyzer",
+      "source": "."
+    },
+    {
+      "name": "tcr-pmhc-prediction-agent",
+      "source": "."
+    },
+    {
+      "name": "tcr-repertoire-analysis-agent",
+      "source": "."
+    },
+    {
+      "name": "test-driven-development",
+      "source": "."
+    },
+    {
+      "name": "tiledbvcf",
+      "source": "."
+    },
+    {
+      "name": "time-resolved-cryoem-agent",
+      "source": "."
+    },
+    {
+      "name": "time-stepping",
+      "source": "."
+    },
+    {
+      "name": "timesfm-forecasting",
+      "source": "."
+    },
+    {
+      "name": "tme-immune-profiling-agent",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-adverse-event-detection",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-antibody-engineering",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-binder-discovery",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-cancer-variant-interpretation",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-chemical-compound-retrieval",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-chemical-safety",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-clinical-guidelines",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-clinical-trial-design",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-clinical-trial-matching",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-crispr-screen-analysis",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-disease-research",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-drug-drug-interaction",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-drug-repurposing",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-drug-research",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-drug-target-validation",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-epigenomics",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-expression-data-retrieval",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-gene-enrichment",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-gwas-drug-discovery",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-gwas-finemapping",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-gwas-snp-interpretation",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-gwas-study-explorer",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-gwas-trait-to-gene",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-image-analysis",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-immune-repertoire-analysis",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-immunotherapy-response-prediction",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-infectious-disease",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-literature-deep-research",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-metabolomics",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-metabolomics-analysis",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-multi-omics-integration",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-multiomic-disease-characterization",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-network-pharmacology",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-pharmacovigilance",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-phylogenetics",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-polygenic-risk-score",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-precision-medicine-stratification",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-precision-oncology",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-protein-interactions",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-protein-structure-retrieval",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-protein-therapeutic-design",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-proteomics-analysis",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-rare-disease-diagnosis",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-rnaseq-deseq2",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-sequence-retrieval",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-single-cell",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-spatial-omics-analysis",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-spatial-transcriptomics",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-statistical-modeling",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-structural-variant-analysis",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-systems-biology",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-target-research",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-variant-analysis",
+      "source": "."
+    },
+    {
+      "name": "tooluniverse-variant-interpretation",
+      "source": "."
+    },
+    {
+      "name": "torch-geometric",
+      "source": "."
+    },
+    {
+      "name": "torch_geometric",
+      "source": "."
+    },
+    {
+      "name": "torchdrug",
+      "source": "."
+    },
+    {
+      "name": "tpd-ternary-complex-agent",
+      "source": "."
+    },
+    {
+      "name": "transformers",
+      "source": "."
+    },
+    {
+      "name": "travel-health-analyzer",
+      "source": "."
+    },
+    {
+      "name": "treatment-plans",
+      "source": "."
+    },
+    {
+      "name": "trial-eligibility-agent",
+      "source": "."
+    },
+    {
+      "name": "trialgpt-matching",
+      "source": "."
+    },
+    {
+      "name": "tumor-clonal-evolution-agent",
+      "source": "."
+    },
+    {
+      "name": "tumor-heterogeneity-agent",
+      "source": "."
+    },
+    {
+      "name": "tumor-mutational-burden-agent",
+      "source": "."
+    },
+    {
+      "name": "ukb-navigator",
+      "source": "."
+    },
+    {
+      "name": "umap-learn",
+      "source": "."
+    },
+    {
+      "name": "uniprot-database",
+      "source": "."
+    },
+    {
+      "name": "universal-single-cell-annotator",
+      "source": "."
+    },
+    {
+      "name": "using-git-worktrees",
+      "source": "."
+    },
+    {
+      "name": "using-superpowers",
+      "source": "."
+    },
+    {
+      "name": "usmle",
+      "source": "."
+    },
+    {
+      "name": "uspto-database",
+      "source": "."
+    },
+    {
+      "name": "vaex",
+      "source": "."
+    },
+    {
+      "name": "varcadd-pathogenicity",
+      "source": "."
+    },
+    {
+      "name": "variant-interpretation-acmg",
+      "source": "."
+    },
+    {
+      "name": "vcf-annotator",
+      "source": "."
+    },
+    {
+      "name": "verification-before-completion",
+      "source": "."
+    },
+    {
+      "name": "virtual-lab-agent",
+      "source": "."
+    },
+    {
+      "name": "wearable-analysis-agent",
+      "source": "."
+    },
+    {
+      "name": "weightloss-analyzer",
+      "source": "."
+    },
+    {
+      "name": "wellally-tech",
+      "source": "."
+    },
+    {
+      "name": "wikipedia-search",
+      "source": "."
+    },
+    {
+      "name": "writing-plans",
+      "source": "."
+    },
+    {
+      "name": "writing-skills",
+      "source": "."
+    },
+    {
+      "name": "xlsx",
+      "source": "."
+    },
+    {
+      "name": "xlsx-official",
+      "source": "."
+    },
+    {
+      "name": "zarr-python",
+      "source": "."
+    },
+    {
+      "name": "zinc-database",
+      "source": "."
+    }
+  ]
+}
