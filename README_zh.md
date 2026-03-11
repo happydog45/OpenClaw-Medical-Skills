@@ -1859,3 +1859,5 @@ Agent 应当列出已安装的技能及其功能说明。
 11. [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
 12. [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)
 13. [LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/LLMs-Universal-Life-Science-and-Clinical-Skills-)
+14. [BioClaw](https://github.com/Runchuan-BU/BioClaw)
+15. [ClawBio](https://github.com/ClawBio/ClawBio)
